@@ -19,7 +19,7 @@ description: >- #
   This is Rafael Ahrons personal blog about software development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://luturol.github.io" 
-twitter_username: _ahrons
+linkedin_username: rafael-ahrons
 github_username:  luturol
 
 # Build settings
