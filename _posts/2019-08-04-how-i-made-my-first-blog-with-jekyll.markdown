@@ -6,7 +6,7 @@ categories: jekyll
 ---
 ## Motivation
 
-After a wanting to make a blog and a discuss about it with my brother. I've got the conclusion that is necessary to have a blog to learn more about programming and to teach others that may be struggling with the same subject that I was. Now I'm gonna create a series of posts about Jekyll, Liquid templates and Css as I learn it and modify my blog to have more of me on it. In an article about [DevOps from Henry Quinn @quinncuatro](https://dev.to/quinncuatro/learning-devops-in-public-c26) on [dev.to](http://dev.to), I got really intrigued with Learning in Public.
+After wanting to make a blog and discuss it with my brother. I've got the conclusion that is necessary to have a blog to learn more about programming and to teach others that may be struggling with the same subject that I was. Now I'm gonna create a series of posts about Jekyll, Liquid templates and Css as I learn it and modify my blog to have more of me on it. In an article about [DevOps from Henry Quinn @quinncuatro](https://dev.to/quinncuatro/learning-devops-in-public-c26) on [dev.to](http://dev.to), I got really intrigued with Learning in Public.
 
 ## What is learning in public?
 
@@ -18,7 +18,7 @@ You would be helping others to not struggle as you when you were learning, you w
 
 ## Let's do it
 
-To begin, what I'm gonna be writing in this series is CSS, Liquid Template and Jekyll, because that's what I'm dealing with to build my personal blog. Fell free to give me a feedback in the end to help me more.
+To begin, what I'm gonna be writing in this series are CSS, Liquid Template and Jekyll, because that's what I'm dealing with to build my personal blog. Feel free to give me a feedback in the end to help me more.
 
 ### Why Jekyll?
 
