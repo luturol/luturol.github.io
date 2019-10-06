@@ -30,7 +30,9 @@ It's created in Ruby, so you have to have installed on your computer. In Jekyll'
 
 To initialize your project you have to execute the command below:
 
+```bash
     jekyll new nome-do-blog
+```
 
 It will create the structure of your project in his own folder.
 
