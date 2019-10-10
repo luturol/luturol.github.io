@@ -17,9 +17,9 @@ Found out some [dev.to](http://dev.to) articles to help me find the right path t
 
 [This article](https://dev.to/arnaudmorisset/an-overview-of-the-javascript-gamedev-ecosystem-4afb) by @arnaudmorisset clarify some doubts of which language and where to start. It made go motivated to C# and Unity. Why? Just because I know how to code in C# and I like it.
 
-Thus, I followed a Youtube tutorial from  [GamePlusJames](https://www.youtube.com/user/gamesplusjames) and learn it a lot of stuff about 2D games and scripting with Unity. The fact of knowing C# helped a lot but still got some doubt. 
+Thus, I followed a Youtube tutorial from  [GamePlusJames](https://www.youtube.com/user/gamesplusjames) and learn it a lot of stuff about 2D games and scripting with Unity. The fact of knowing C# helped a lot but still got some doubt.
 
-## Doubts that came while doing Snowball Fight Tutorial:
+## Doubts that came while doing Snowball Fight Tutorial
 
 1. How to build the project? Unity has a lot of different types of building your project and configs. Which one I use and why?
     In the last video, he explains how to build and configure to play on windows.
@@ -27,7 +27,7 @@ Thus, I followed a Youtube tutorial from  [GamePlusJames](https://www.youtube.co
 1. How to connect on database?
 1. How to use HTTP Request to other services?
 
-## The path I've found:
+## The path I've found
 
 This [tutorial from GamePlusJames](https://www.youtube.com/watch?v=p23J5-1OTAM&t=196s) is perfect for those that don't know yet how to programming and don't know anything about Unity. He explains very well what he is doing through the videos.
 
