@@ -6,7 +6,7 @@ categories: jekyll
 ---
 ## Motivation
 
-After wanting to make a blog and discuss it with my brother. I've got the conclusion that is necessary to have a blog to learn more about programming and to teach others that may be struggling with the same subject that I was. Now I'm gonna create a series of posts about Jekyll, Liquid templates and Css as I learn it and modify my blog to have more of me on it. In an article about [DevOps from Henry Quinn @quinncuatro](https://dev.to/quinncuatro/learning-devops-in-public-c26) on [dev.to](http://dev.to), I got really intrigued with Learning in Public.
+After wanting to make a blog and discuss it with my brother. I've got the conclusion that is necessary to have a blog to learn more about programming and to teach others that may be struggling with the same subject that I was. Now I'm gonna create a series of posts about Jekyll, Liquid templates and CSS as I learn it and modify my blog to have more of me on it. In an article about [DevOps from Henry Quinn @quinncuatro](https://dev.to/quinncuatro/learning-devops-in-public-c26) on [dev.to](http://dev.to), I got really intrigued with Learning in Public.
 
 ## What is learning in public?
 
@@ -20,7 +20,7 @@ You would be helping others to not struggle as you when you were learning, you w
 
 To begin, what I'm gonna be writing in this series are CSS, Liquid Template and Jekyll, because that's what I'm dealing with to build my personal blog. Feel free to give me a feedback in the end to help me more.
 
-### Why Jekyll?
+### Why Jekyll
 
 Didn't want to host my blog anywhere and didn't want to have cost and problems with infrastructure and security, I really just want to focus in programming with a simple and fast result, so I end up picking Jekyll (and it's recommended by Github Pages tutorial).
 
@@ -38,7 +38,9 @@ It will create the structure of your project in his own folder.
 
 Jekyll default is to use Minimal template. To find where the files are, just use the command bellow:
 
+```bash
     bundle show minimal
+```
 
 It will show you the directory of it.
 

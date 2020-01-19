@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://luturol.github.io" 
 linkedin_username: rafael-ahrons
 github_username:  luturol
+permalink: "/:categories/:title"
 
 # Build settings
 markdown: kramdown
