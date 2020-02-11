@@ -4,15 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, I'm Rafael Ahrons and this is my personal blog.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I like to write about my programming journey so others don't have to struggle with the subjects as I did. I'm trying to learn more about game dev, so I may be writing a lot of posts about Unity.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I'm currently trying to build some games with Unity to have fun and study, because I like a lot of gamming and I'm passionate of coding them. Always found more interesting to learn programming with games.
 
+If you want to comment about a post of mine, you can send me an e-mail or comment them in [dev.to profile](https://dev.to/luturol).
 
-[jekyll-organization]: https://github.com/jekyll
+Fell free to share with your thoughts.
+
+Peace.
+Don't forget to drink water and eat clean.
+
+Good reading,
+From Rafael Ahrons.
