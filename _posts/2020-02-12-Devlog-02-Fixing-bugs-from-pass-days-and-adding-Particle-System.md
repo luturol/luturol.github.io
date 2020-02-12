@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Devlog 2 Fixing bugs from pass days and adding Particle System Day 3~4
+title: Devlog 02 - Fixing bugs from pass days and adding Particle System Day 3~4
 date:   2020-02-12 17:32:00
 categories: 
 - gamedev
