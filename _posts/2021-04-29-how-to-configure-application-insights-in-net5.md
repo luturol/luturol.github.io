@@ -12,7 +12,7 @@ categories:
 Application insights is a wonderful tool to help you track log, see performance issues and application map. It's more like CloudWatch on AWS.
 
 
-First you need to download two packages from nuget to start.
+First, you need to download two packages from nuget to start.
 
 1. [Microsoft.ApplicationInsights.AspNetCore](https://www.nuget.org/packages/Microsoft.ApplicationInsights.AspNetCore)
 
@@ -23,7 +23,7 @@ dotnet add package Microsoft.ApplicationInsights.AspNetCore --version 2.17.0
 dotnet add package Microsoft.Extensions.Logging.ApplicationInsights --version 2.17.0
 ```
 
-After that you need to initialize the configurations from application inights on Statup.cs and Program.cs
+After that, you need to initialize the configurations from application insights on Statup.cs and Program.cs
 
 
 On Startup.cs, you need to add the service dependency.
