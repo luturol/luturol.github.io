@@ -283,3 +283,5 @@ Our full method test will be something like this:
             Assert.Equal(response.Value, expected);
         }
 ```
+
+You can also mock a method from a class that does not have a interface by setting virtual in the method declaration.
