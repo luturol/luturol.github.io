@@ -63,6 +63,6 @@ It will initialize your container and show you the logs while is initializing, s
 
 ## References
 
-1. [MySQL docker image](https://hub.docker.com/_/mysql)
-1. [Como rodar MySQL com Docker?](https://www.youtube.com/watch?v=S9BbUxmFaQI&ab_channel=AluraCursosOnline)
+- [MySQL docker image](https://hub.docker.com/_/mysql)
+- [Como rodar MySQL com Docker?](https://www.youtube.com/watch?v=S9BbUxmFaQI&ab_channel=AluraCursosOnline)
 

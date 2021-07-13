@@ -78,6 +78,6 @@ It will initialize your container and show you the logs while is initializing, s
 
 ## References
 
-1. [MongoDB docker image](https://hub.docker.com/_/mongo)
-1. [MongoDb Docker do Balta.io](https://balta.io/blog/mongodb-docker)
-1. [Connection String URI Format from MongoDB Documentation](https://docs.mongodb.com/manual/reference/connection-string/)
+- [MongoDB docker image](https://hub.docker.com/_/mongo)
+- [MongoDb Docker do Balta.io](https://balta.io/blog/mongodb-docker)
+- [Connection String URI Format from MongoDB Documentation](https://docs.mongodb.com/manual/reference/connection-string/)
