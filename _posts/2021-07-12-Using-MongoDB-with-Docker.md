@@ -33,9 +33,9 @@ docker run -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=root
 
 It will initialize your container and show you the logs while is initializing, so you can track if some errors appears in the cosole log.
 
-**-e** will add MONGO_INITDB_ROOT_USERNAME enviroment variable with the value **root**. With that, your username to connect will be root.
+**-e** will add **MONGO_INITDB_ROOT_USERNAME** enviroment variable with the value **root**. With that, your username to connect will be root.
 
-**-e** will add MONGO_INITDB_ROOT_PASSWORD enviroment variable with the value **root**. With that, your pawword to connect will be root.
+**-e** will add **MONGO_INITDB_ROOT_PASSWORD** enviroment variable with the value **root**. With that, your pawword to connect will be root.
 
 **-p** will share your local port with the port of the container. 27017 is port that mongodb use.
 
@@ -68,11 +68,13 @@ It will initialize your container and show you the logs while is initializing, s
 
     This is the connection string to connect inside mongodb of our container.
 
-    What does that connection string means:
+## What does that connection string means:
 
-    1. First **root** is the username (if you changed, you must change in the connection string as well)
-    1. Second **root** is our password (if you changed, you must change in the connection string as well)
-    1. After @ is the IP you are trying to connect and the database that holds your user.
+1. First **root** is the username (if you changed, you must change in the connection string as well)
+
+1. Second **root** is our password (if you changed, you must change in the connection string as well)
+
+1. After @ is the IP you are trying to connect and the database that holds your user.
 
 ## References
 
