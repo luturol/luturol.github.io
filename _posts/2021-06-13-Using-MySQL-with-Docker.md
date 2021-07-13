@@ -31,9 +31,9 @@ docker run -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -v folderForVolume:/var/lib/mysql m
 
 ### What this command does
 
-It will initialize your container and show you the logs while is initializing, so you can track if some errors appears in the cosole log.
+It will initialize your container and show you the logs while is initializing, so you can track if some errors appear in the console log.
 
-**-e** will add MYSQL_ALLOW_EMPTY_PASSWORD enviroment variable with the value **yes**. With that, you can enter in mysql without password.
+**-e** will add MYSQL_ALLOW_EMPTY_PASSWORD environment variable with the value **yes**. With that, you can enter in mysql without a password.
 
 **-v** will create a volume with the container to share some data between your pc and the container. With this, you will be able to create another container with the same data without losing any tables or queries. 
 

@@ -31,13 +31,13 @@ docker run -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=root
 
 ### What this command does
 
-It will initialize your container and show you the logs while is initializing, so you can track if some errors appears in the cosole log.
+It will initialize your container and show you the logs while is initializing, so you can track if some errors appear in the console log.
 
-**-e** will add **MONGO_INITDB_ROOT_USERNAME** enviroment variable with the value **root**. With that, your username to connect will be root.
+**-e** will add **MONGO_INITDB_ROOT_USERNAME** environment variable with the value **root**. With that, your username to connect will be root.
 
-**-e** will add **MONGO_INITDB_ROOT_PASSWORD** enviroment variable with the value **root**. With that, your pawword to connect will be root.
+**-e** will add **MONGO_INITDB_ROOT_PASSWORD** environment variable with the value **root**. With that, your password to connect will be root.
 
-**-p** will share your local port with the port of the container. 27017 is port that mongodb use.
+**-p** will share your local port with the port of the container. 27017 is the port that mongodb use.
 
 ## Executing the same mongodb container after ended
 
@@ -55,7 +55,7 @@ It will initialize your container and show you the logs while is initializing, s
     
     It will enter inside the container with a bash terminal executing.
 
-## Testin your connection
+## Testing your connection
 1. Testing your connection
 
     You must have some program to connect with MongoDB. You can use or [Mongo Compass](https://www.mongodb.com/pt-br/products/compass) or [Robot3](https://robomongo.org/) or the one you prefer.
@@ -80,4 +80,4 @@ It will initialize your container and show you the logs while is initializing, s
 
 - [MongoDB docker image](https://hub.docker.com/_/mongo)
 - [MongoDb Docker do Balta.io](https://balta.io/blog/mongodb-docker)
-- [Connection String URI Format from MongoDB Documentation](https://docs.mongodb.com/manual/reference/connection-string/)
+- [Connection String URI Format from MongoDB Documentation]
