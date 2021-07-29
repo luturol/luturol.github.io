@@ -41,8 +41,8 @@ public class FollowPlayer : MonoBehaviour
     
     private void LateUpdate()
     {
-            //Set camera position to player position + offset
-            transform.position = player.transform.position;
+        //Set camera position to player position + offset
+        transform.position = player.transform.position;
     }
 }
 ```
