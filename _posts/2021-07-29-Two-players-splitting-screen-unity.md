@@ -11,7 +11,7 @@ categories:
 
 To get this effect on your game you only need to do 2 steps.
 
-![spliting game screen](../assets/images/splitting-screen.png)
+![spliting game screen](/assets/images/splitting-screen.png)
 
 1. You need to resize your main camera
 
@@ -21,14 +21,14 @@ To get this effect on your game you only need to do 2 steps.
 
 Change the width size of the Viewport Rect from your main camera to `0.5` as the image below:
 
-![main camera viewport rect with width 0.5](../assets/images/main-camera-width.png)
+![main camera viewport rect with width 0.5](/assets/images/main-camera-width.png)
 
 
 ## Instantiate a new camera to go to the other side of the main camera
 
 Instantiate a new Camera and set the x position of the viewport rect to 0.5 and width to 0.5. That means that the camera will appear in the 0.5 with a width 0.5. As the image below:
 
-![](../assets/images/main-camera-width2.png)
+![](/assets/images/main-camera-width2.png)
 
 ## Create a script to follow the correct player
 
