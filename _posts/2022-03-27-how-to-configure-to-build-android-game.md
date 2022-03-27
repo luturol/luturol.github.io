@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to configure to build Android game with unity
+title: How to configure Unity to build Android Game
 date:   2022-03-27 18:19:00
 categories: 
 - csharp
@@ -8,7 +8,7 @@ categories:
 - mobile
 ---
 
-# How to build an Android game with Unity
+# How to configure Unity to build Android Game
 
 This tutorial is to be an easy way to configure your PC and Android Cellphone to be able to create a mobile game.
 
