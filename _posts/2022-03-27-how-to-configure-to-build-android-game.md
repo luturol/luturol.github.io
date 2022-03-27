@@ -58,3 +58,4 @@ This tutorial is to be an easy way to configure your PC and Android Cellphone to
 
  - [UNITY REMOTE 5 NOT WORKING? HERE IS MY SETUP TUTORIAL AND CHECKLIST FOR ANDROID AND IOS from Generalist Programmer](https://www.youtube.com/watch?v=L6CkG2sgupA&ab_channel=GeneralistProgrammer)
 
+- [How to do Orientation Settings Portrait or Lanscape for Unity 2D/3D - TechWrath TV](https://www.youtube.com/watch?v=ngXIBAhx_z8&ab_channel=TechWrathTV)
