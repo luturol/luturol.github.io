@@ -54,16 +54,6 @@ When you add your class, you must add one of those two annotations on it: ```@Co
 Your class will be something like this:
 
 ```java
-package br.com.manga.controller;
-
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.util.Arrays;
-import java.util.List;
-
 @RestController
 public class MangaController {
 
@@ -74,3 +64,36 @@ public class MangaController {
 }
 ```
 
+Using ```@RestController``` you can add the request mapping to the MangaController class declaration so you does not need to add in every endpoint you built. 
+
+```java
+@RestController
+@RequestMapping("/mangas")
+public class MangaController {
+
+    @GetMapping
+    public List<String> list(){
+        return Arrays.asList("Solo Leveling", "The Legend of the Northern Blade", "Tales of Demons and Gods");
+    }
+}
+```
+
+In your endpoints you will need yo specify which verb will use yo access. Just add one of this annotations to it.
+
+```java
+@GetMapping
+@PostMapping
+@PutMapping
+@DeleteMapping
+@PatchMapping
+```
+
+Now you have your endpoint and controller. 
+
+Run your project and try access through ```localhost:8080/mangas``` to check the mangas list reponse. 
+
+And that's it.
+
+Don't forget to eat clean and drink water.
+
+Peace!!
