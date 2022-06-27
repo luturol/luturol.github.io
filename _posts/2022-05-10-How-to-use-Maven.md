@@ -120,3 +120,23 @@ In dependencies tag you will add your dependencies. How? just like this:
     ```
 
 You need to save your project and download dependencies after that.
+
+
+## How to add remote repository
+
+It's common for companies to have their own dependency repository to storage their own package. So, to add their remote repository to your pom.xml for maven download their packages you just need to add two tags: ```<repositories></repositories>``` and ```<repository></repository>```.
+
+Example:
+
+```xml
+<repositories>
+    <repository>
+        <id>spring-repo</id>
+        <url>https://repo.spring.io/release</url>
+    </repository>
+</repositories>
+```
+
+Now maven will search for this repository to download dependencies.
+
+Inside url tag you can add a folder or a private url, or an IP to an internal server...
