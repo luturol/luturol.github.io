@@ -50,3 +50,22 @@ By default, it does not use one.
 ### Artifact Id
 
 It's the name of the project. It will appear in the JAR file or WAR file when build your application.
+
+
+### Project Structure
+
+```
+ProjectName
+    - src
+        - main
+            - java
+                - com
+                    - organization                       
+            - resources
+        - test
+            - java
+            - resources
+    - pom.xml
+```
+
+pom.xml is the maven configuration file. It contains the dependencies and other configs.
