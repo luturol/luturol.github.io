@@ -69,3 +69,54 @@ ProjectName
 ```
 
 pom.xml is the maven configuration file. It contains the dependencies and other configs.
+
+
+## How to add Dependencies in your project
+
+Inside ```pom.xml``` add inside the ```<project></project>``` tag add the tag ```<dependencies></dependencies>```.
+
+In dependencies tag you will add your dependencies. How? just like this:
+
+1. Add another tag called ```<dependency></dependency>```
+
+1. Add the group id and artifact id of your dependency
+
+    Example:
+    ```xml
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+    </dependencies>
+    ```
+
+1. You can add the version of the dependency
+
+    Example:
+    ```xml
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+    </dependencies>
+    ```
+
+1. You can add the [scope tag](https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Dependency_Scope) to set how the dependency will be used.
+
+    compile, provided, runtime, system, test
+    Example:
+    ```xml
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    ```
+
+You need to save your project and download dependencies after that.
