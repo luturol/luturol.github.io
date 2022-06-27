@@ -140,3 +140,37 @@ Example:
 Now maven will search for this repository to download dependencies.
 
 Inside url tag you can add a folder or a private url, or an IP to an internal server...
+
+## How to build your maven application
+
+To compile your project:
+
+```bash
+mvn compile
+```
+
+To clean target folder:
+
+```bash
+mvn clean
+```
+
+If it result on a error saying that you are using the wrong JAVA version, then you need to configure the default JAVA version to use on your project.
+
+```xml
+<build>
+    <plugins>
+        <plugin>
+            <artifactId>maven.compiler-plugin</artifactId>
+            <configuration>
+                <source>11</source>
+                <target>11</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+```
+
+Everything that is related to build, you set inside the ```build``` tag on ```pom.xml```
+
+You can run ```mvn test``` to execute tests from your application.
