@@ -174,3 +174,52 @@ If it result on a error saying that you are using the wrong JAVA version, then y
 Everything that is related to build, you set inside the ```build``` tag on ```pom.xml```
 
 You can run ```mvn test``` to execute tests from your application.
+
+## How to generate a package
+
+Maven has a command to create the package, aka build, of your application.
+
+```bash
+mvn package
+```
+
+This command will check inside ```pom.xml``` to verify what type of file will be created, if it's a JAR or a WAR.
+
+This file will be stored inside the ```target/``` folder.
+
+To configure the packaging type just add the tag ```packaging``` in ```pom.xml```
+
+Example:
+
+```xml
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.spring-boot-react</groupId>
+	<artifactId>demo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+    //other configs
+    // ...
+</project>
+```
+
+## How to install your application
+
+You can use this command to install your application
+
+```bash
+mvn install
+```
+
+This will make a build, package and install in your local computer.
+
+## How to deploy your application in a local or remote repository
+
+```bash
+mvn deploy
+```
+
+To use this you need to configure local repository inside the ```repositories``` tag in the ```pom.xml```
