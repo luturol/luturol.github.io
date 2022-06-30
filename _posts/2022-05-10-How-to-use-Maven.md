@@ -223,3 +223,7 @@ mvn deploy
 ```
 
 To use this you need to configure local repository inside the ```repositories``` tag in the ```pom.xml```
+
+## What is plugins tag
+
+Inside this tag you will store all plugins that will help application build. You can check all plugins available clicking [here](https://maven.apache.org/plugins/index.html).
