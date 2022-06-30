@@ -7,6 +7,23 @@ categories:
 - maven
 ---
 
+# Sumary
+
+1. [What is Maven](#what-is-mavenhttpsmavenapacheorg)
+1. [How to install](#how-to-install)
+1. [How to create a new Maven project](#how-to-create-a-maven-project)
+1. [Group id](#group-id)
+1. [Archetype](#archetype)
+1. [Artifact ID](#artifact-id)
+1. [Project Structure](#project-structure)
+1. [How to add dependencies in your project](#how-to-add-dependencies-in-your-project)
+1. [How to add remote repository](#how-to-add-remote-repository)
+1. [How to build your maven application](#how-to-build-your-maven-application)
+1. [How to generate a package](#how-to-generate-a-package)
+1. [How to install your application](#how-to-install-your-application)
+1. [How to deploy your application in a local or remote repository](#how-to-deploy-your-application-in-a-local-or-remote-repository)
+1. [What is plugins tag](#what-is-plugins-tag)
+
 # What is [Maven](https://maven.apache.org/)
 
 Is a project manager tool to help you build your application and manage dependencies.
@@ -47,7 +64,7 @@ If you want to create a jira plugin, then select the jira-plugin-archetype. ]
 By default, it does not use one.
 
 
-### Artifact Id
+### Artifact ID
 
 It's the name of the project. It will appear in the JAR file or WAR file when build your application.
 
@@ -71,7 +88,7 @@ ProjectName
 pom.xml is the maven configuration file. It contains the dependencies and other configs.
 
 
-## How to add Dependencies in your project
+## How to add dependencies in your project
 
 Inside ```pom.xml``` add inside the ```<project></project>``` tag add the tag ```<dependencies></dependencies>```.
 
@@ -227,3 +244,10 @@ To use this you need to configure local repository inside the ```repositories```
 ## What is plugins tag
 
 Inside this tag you will store all plugins that will help application build. You can check all plugins available clicking [here](https://maven.apache.org/plugins/index.html).
+
+
+And that is it for now.
+
+This is the article explaning a few things about Maven and how to use it.
+
+Don't forget to eat clean and drink water.
