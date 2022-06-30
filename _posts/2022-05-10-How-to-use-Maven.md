@@ -7,7 +7,7 @@ categories:
 - maven
 ---
 
-# Sumary
+# Summary
 
 1. [What is Maven](#what-is-mavenhttpsmavenapacheorg)
 1. [How to install](#how-to-install)
