@@ -235,8 +235,11 @@ Go to Actions -> open the action that was created by your commit -> On Artifact 
 
 ![](/assets/images/build-action.png)
 
-#### Conclusion
 
-
+#### More documentation
 
 You can also check this [documentation](https://game.ci/docs/github/builder#complete-example) to learn more about the build step.
+
+### Conclusion
+
+Using Game CI to build your project and deploy will save you time, won't blocking development on your team and you will always have a build to show and test. You, also, will have a build for every new feature you made and can configure to block PRs to be merged if the build is broken so you don't deliver something that won't work.
