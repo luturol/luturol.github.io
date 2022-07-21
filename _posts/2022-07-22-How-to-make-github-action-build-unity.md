@@ -243,3 +243,9 @@ You can also check this [documentation](https://game.ci/docs/github/builder#comp
 ### Conclusion
 
 Using Game CI to build your project and deploy will save you time, won't blocking development on your team and you will always have a build to show and test. You, also, will have a build for every new feature you made and can configure to block PRs to be merged if the build is broken so you don't deliver something that won't work.
+
+## References
+
+- [Game CI](https://game.ci/)
+- [How to build your Unity game with Game CI and Github](https://www.youtube.com/watch?v=M2BZr02uai0&ab_channel=LPGames)
+- [CI/CD for Unity - NEW Github Actions](https://www.youtube.com/watch?v=JjKCy3H0A30&ab_channel=RohanMayya)
