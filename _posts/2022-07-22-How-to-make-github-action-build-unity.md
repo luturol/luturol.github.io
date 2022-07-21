@@ -132,7 +132,7 @@ Add another two Secrets to your project: ```UNITY_EMAIL``` and ```UNITY_PASSWORD
 
 You need to set environments properties configurations such as e-mail, password and licese:
 
-```yml
+```
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}    
   UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
