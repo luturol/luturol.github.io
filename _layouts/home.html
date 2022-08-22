@@ -22,7 +22,7 @@ layout: default
           </a>
         </h3>
         {%- for category in post.categories -%}
-        <span class="badge badge-secondary">category</span>
+        <span class="badge badge-secondary">{{ category }}</span>
         {%- endfor -%}
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
