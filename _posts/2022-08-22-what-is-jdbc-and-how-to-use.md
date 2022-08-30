@@ -8,7 +8,7 @@ categories:
 
 # What is JDBC and how to use
 
-In this article you will learn what is JDBC and how to use on your Java project. We will use Docker with PostgreSQL and Java 17 in this tutorial to explain and to execute it.
+In this article you will learn what is JDBC and how on your Java project. We will use Docker with PostgreSQL and Java 17 in this tutorial to explain and to execute it.
 
 Repository of this article you can find by clicking [here](https://github.com/luturol/LearningJava).
 
@@ -29,6 +29,20 @@ Add the external library in your project by searching for the External Library B
  - on [Eclipse](https://stackoverflow.com/questions/2824515/how-to-add-external-library-properly-in-eclipse)
 
 or you can call the driver on your class by using ```Class.forName("org.postgresql.Driver");``` change ```org.postgresql.Driver``` for your current driver.
+
+### Using JDBC
+
+To use JDBC we will need to create a new Java Project and start coding.
+
+To connect to ours Database, we will need to use ```java.sql``` classes and implementations to help. First let's add a call to ```DriverManager.getConnection``` method and pass ours connection string to it.
+
+```java
+public Connection Create() throws SQLException {
+    String jdbc = "jdbc:postgresql://localhost/postgres?user=java&password=java";
+
+    return DriverManager.getConnection(jdbc);
+}
+```
 
 
 # References
